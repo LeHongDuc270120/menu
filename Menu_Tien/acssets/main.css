@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c7b0b0;
+}
+.Header{
+  background-color:#fff;
+  color: #FFD700;
+  font-size: 24px;
+}
+.nav_header{
+    padding: 18px 20px;
+    font-size: 30px;
+}
+.menu{
+   padding-top: 64px;
+   padding-right: 200px;
+}
+.menu ul{
+    display: flex;
+    padding: 30px 0;
+    font-size: 30px;
+}
+.menu li {
+    list-style-type: none;
+    padding: 0 50px;
+    cursor: pointer;
+
+}
+.menu li:hover{
+    color: blue;
+}
+.menu li a{
+    text-decoration: none;
+    color: #FFD700;
+    
+}
+.menu li a:hover{
+    color: blue;
+}
+.container{
+    
+}
+.content_header{
+    text-align: center;
+    font-size: 46px;
+    color: #FF4500;
+}
+.content_header h1{
+    padding: 15px 0;
+}
+.aside{
+    display: flex;
+    padding: 1%;
+}
+.aside_item img{
+    width: 570px;
+    height: 700px;
+}
+.container_list{
+    padding: 5px 20px;
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    word-wrap: break-word;
+}
+.list{
+    max-width: 274px;
+    max-height: 331px;
+    padding: 10px;
+}
+.list_item img {
+   width: 100%;
+   cursor: pointer;
+}
+.list_item img:hover{
+   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+   transform:  translateY(-2px);;
+}
+.list_content p:hover{
+    color: #F0F0F0;
+    text-shadow: 3px 3px 4px #A9A9A9;
+}
+.Footer{
+
+}
+#map{
+    width: 600px;
+     height: 450px;
+}
