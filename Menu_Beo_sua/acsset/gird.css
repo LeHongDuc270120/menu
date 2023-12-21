@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.c-1{
+    width: 33.3333333%;
+}
+.c-2{
+    width: 30%;
+}
+.c-3{
+    width: 70%;
+}
+.c-4{
+    width: 60%;
+}
+.c-5{
+    width: 40%;
+}
+.c-6{
+    width: 50%;
+}
+.c-7{
+    width: 25%;
+}
+.c-8{
+    width: 75%;
+}
+.c-9{
+    width: 45%;
+}
+.c-10{
+    width: 55%;
+}

@@ -1,0 +1,32 @@
+.hero_banner-slide{
+  text-align: center;
+}
+#slideshow {
+  overflow: hidden;
+  height: 750px;
+  width: 778px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 3112px;
+  -webkit-animation: slide 10s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 750px;
+  width: 778px;
+}
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -778px;}
+  50% {margin-left: -778px;}
+  60% {margin-left: -1556px;}
+  80% {margin-left: -1556px;}
+}
+.chinhha{
+  width: 100%;
+}

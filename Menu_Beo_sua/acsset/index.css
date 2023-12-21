@@ -1,0 +1,206 @@
+#main{
+    background-color: #FFFACD;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+#header{
+    
+    display: flex;
+    background-color: #fff;
+    position: fixed;  /*Thuộc tính bám dính */
+    top: 0; /*Thuộc tính bám dính */
+    left: 0;    /*Thuộc tính bám dính */
+    right: 0;   /*Thuộc tính bám dính */
+    z-index: 1; /*cho phần menu nổi lên bức hình khi bức hình sử dụng thuộc tính position */
+}
+.header_logo{
+    display: flex;
+    padding: 15px 0 0 15px;
+}
+.header_logo_item{
+    text-align: center;
+}
+
+.header_logo_text{
+    padding-top: 36px;
+}
+.header_logo_text p {
+    font-weight: 600;
+    
+}
+.header_search{
+    height: 40px;
+    background-color: var(--white-color);
+    flex: 1;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_search-bar{
+    margin-top: 88px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.header_search-bar-input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding: 0 16px;
+    border-radius: 2px; 
+}
+.header_search-bar-input:focus ~ .header_search-history{
+    display: block;
+}
+.header_search-history{
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: calc(100% - 90px);
+    background-color: var(--white-color);
+    border-radius: 2px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+.header_search-history-list{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.header_search-history-text{
+    padding: 10px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-decoration: none ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.header_search-history-text:hover{
+    background-color: #fafafa;
+}
+.header_menu{
+    margin-top: 34px;
+    font-size: 30px;
+}
+.header_menu ul{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    padding-left: 50px;
+}
+.header_menu li {
+    
+    list-style-type: none;
+     padding: 0 12px;
+    cursor: pointer;
+    border-right: 1px solid #f3e355;
+
+}
+.header_menu li:hover{
+    color: blue;
+}
+.header_menu li a{
+    text-decoration: none;
+    color: #FFD700;
+    
+}
+.header_menu li a:hover{
+    color: #FF8C00;
+}
+.header_search-bar-btn{
+    font-size: 20px;
+    padding: 0 8px;
+    margin: 0 14px;
+}
+#hero_banner{
+    padding-top: 142.5px;
+    border: 2px solid #000;
+    margin: auto;
+    padding: auto;
+   /* padding-top:50%;*/
+}
+.hero_banner-container_aside{
+    display: flex;
+}
+.hero_banner-aside-item{
+   
+}
+.hero_banner-header{
+    text-align: center;
+    font-size: 46px;
+    color: #FF4500;
+}
+
+.hero_banner-header h1{
+    padding: 20px 0 15px 0;
+}
+.hero_banner-list{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    word-wrap: break-word;
+    margin-bottom: 42px;
+}
+.list{
+    max-width: 274px;
+    max-height: 331px;
+    padding: 5px ;
+    margin: 0 80px;
+}
+.list_item img {
+   width: 100%;
+   cursor: pointer;
+}
+.list_item img:hover{
+   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+   transform:  translateY(-2px);;
+}
+.list_content{
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+.list_content p:hover{
+    color: #FFA500;
+    text-shadow: 3px 3px 4px #A9A9A9;
+}
+#footer{
+    margin: 20px 0;
+    display: flex;
+    max-height: 560px;
+    background-color: #fff;
+    padding: 40px 0;
+    border: 2px solid #000;
+}
+.footer_information{
+   font-size: 27px;
+   padding: 20px 42px 0 42px;
+}
+.footer_information li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+.xem_menu{
+    
+    width: 100%;
+    text-align: center;
+}
